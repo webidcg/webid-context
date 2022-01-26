@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+
+        "Agent": "foaf:Agent",
+        "Person": "foaf:Person",
+        "Project": "foaf:Project",
+        "Organization": "foaf:Organization",
+
+        "PersonalProfileDocument": "foaf:PersonalProfileDocument",
+
+        "name": "foaf:name",
+        "title": "foaf:title",
+        "familyName": "foaf:familyName",
+        "givenName": "foaf:givenName",
+
+        "img": {
+            "@id": "foaf:img",
+            "@type": "@id" },
+        "knows": {
+            "@id": "foaf:knows",
+            "@type": "@id" },
+
+        "primaryTopic": {
+            "@id": "foaf:primaryTopic",
+            "@container": "@graph" },
+        "primaryTopicOf": {
+            "@id": "foaf:primaryTopicOf",
+            "@container": "@graph" }
+    }
+}
